@@ -1,0 +1,7 @@
+{
+    "ext": "ts,js,json",
+    "watch": ["src", "typings"],
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "npm run postinstall && node build/src/server"
+  }
+  
