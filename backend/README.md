@@ -10,4 +10,5 @@ In "coingecko-api-v3" i made 2 changes.
 - In line 37, instead of this.baseURL = CoinGeckoClient.PRO_API_V3_URL, I did it this.baseURL = CoinGeckoClient.API_V3_URL;
 
 Thats beacuse the library doesnt support DEMO API key
+
 I created a patch in order to keep the changes permanent.
